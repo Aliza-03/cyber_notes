@@ -35,5 +35,5 @@
 ### Service Version Detection: ``nmap -sV [target]``
 
 
-PS: To view more scans, refer to the [[https://www.geeksforgeeks.org/ethical-hacking/nmap-cheat-sheet/]]
+PS: To view more scans, refer to the [[https://www.geeksforgeeks.org/ethical-hacking/nmap-cheat-sheet/]] [[https://www.stationx.net/nmap-cheat-sheet/]]
 
